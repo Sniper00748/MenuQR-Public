@@ -1,0 +1,409 @@
+/* 电子菜单样式 - 明亮主题 */
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+    background: linear-gradient(135deg, #fff5f5 0%, #fff0db 50%, #fffaeb 100%);
+    color: #333333;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+}
+
+/* 渐变色文本效果 */
+@keyframes textGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #2196F3, #00BCD4, #4CAF50);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 5s ease infinite;
+    display: inline-block;
+}
+
+/* 卡片文字样式 */
+.card-text {
+    color: #555555 !important;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* 分类标题样式 */
+.card-title {
+    background: linear-gradient(90deg, #FF5722, #FF9800, #FFC107);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 5s ease infinite;
+    font-weight: bold;
+}
+
+/* 子页面标题渐变色 */
+.category-title {
+    background: linear-gradient(90deg, #2196F3, #00BCD4, #4CAF50);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 5s ease infinite;
+    font-weight: bold;
+}
+
+/* Logo样式 */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap; 
+}
+
+.bar-logo {
+    height: 12vw;
+    max-height: 150px;
+    min-height: 80px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.restaurant-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #2196F3, #00BCD4, #4CAF50);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 5s ease infinite;
+    margin: 0;
+}
+
+.tagline {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.category-card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(145deg, #fff8f8, #fff4e6);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(33, 150, 243, 0.3);
+    border: 1px solid rgba(33, 150, 243, 0.2);
+}
+
+.category-image {
+    aspect-ratio: 3/2;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu-item {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(145deg, #fff8f8, #fff4e6);
+    border-left: 3px solid #FF9800;
+}
+
+.menu-item-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.menu-item-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.menu-item-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-container {
+    overflow: hidden;
+}
+
+.menu-item .card {
+    background-color: transparent;
+    border: none;
+}
+
+.menu-item-image {
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    width: calc(45% - 7.5px);
+    height: auto;
+    flex-shrink: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border: 2px solid #fff4e6;
+}
+
+.radar-chart {
+    width: calc(55% - 7.5px);
+    aspect-ratio: 1;
+    flex-shrink: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, rgba(255, 248, 248, 0.7), rgba(255, 244, 230, 0.7));
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid rgba(255, 152, 0, 0.2);
+}
+
+.radar-chart svg {
+    width: 100%;
+    height: 100%;
+    max-width: 100%; 
+}
+
+.menu-item-price {
+    font-weight: bold;
+    background: linear-gradient(90deg, #FF5722, #FF9800);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem; /* 增大价格字体 */
+    padding: 3px 8px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 87, 34, 0.3);
+}
+
+.menu-item-description {
+    color: #555555;
+    font-size: 1.1rem; /* 增大简介文字字体 */
+    line-height: 1.6;
+    padding: 5px 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+}
+
+.ingredients-list {
+    background: linear-gradient(145deg, rgba(255, 248, 248, 0.8), rgba(255, 244, 230, 0.8));
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 2px solid #FF9800;
+}
+
+.ingredients-title {
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.ingredient-item {
+    color: #555555;
+    margin-bottom: 5px;
+}
+
+
+
+.header {
+    background: linear-gradient(to right, #fff8f8, #fff4e6);
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid rgba(255, 152, 0, 0.3);
+}
+
+#back-button, .back-button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #FF5722, #FF9800);
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+    margin-bottom: 20px; /* 增加底部间距 */
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(255, 87, 34, 0.3);
+}
+
+#back-button:hover, .back-button:hover {
+    background: linear-gradient(90deg, #FF9800, #FF5722);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(255, 87, 34, 0.5);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) and (orientation: landscape) {
+    .logo-container {
+        flex-direction: column;
+    }
+    
+    .bar-logo {
+        height: 80px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .restaurant-name {
+        font-size: 1.8rem;
+    }
+    
+    .tagline {
+        font-size: 0.9rem;
+    }
+    
+    .category-image {
+        aspect-ratio: 3/2;
+        width: 100%;
+    }
+    
+    /* 优化详情页面在移动端的显示 */
+    .menu-item {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+    }
+    
+    .menu-item-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .menu-item-left {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    
+    .menu-item-right {
+        width: 100%;
+        min-height: auto;
+    }
+    
+    .menu-item-image {
+        width: calc(50% - 7.5px);
+        aspect-ratio: 3/4;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 8px;
+        height: auto;
+        flex-shrink: 0;
+    }
+    
+    .radar-chart {
+        width: calc(50% - 7.5px);
+        aspect-ratio: 1;
+        margin-top: 0;
+        flex-shrink: 0;
+    }
+    
+    .menu-item .card-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px;
+        color: #333333;
+    }
+    
+    .menu-item .card {
+    background-color: #ffffff;
+    border: none;
+}
+    
+    .menu-item-description {
+        font-size: 1.1rem; /* 与桌面版保持一致 */
+        line-height: 1.6;
+        margin-bottom: 10px;
+        flex: 1;
+    }
+    
+    .menu-item-price {
+        font-size: 1.4rem; /* 增大移动端价格字体 */
+    }
+    
+    /* 调整间距 */
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    #category-title {
+        font-size: 1.5rem;
+        background: linear-gradient(90deg, #2196F3, #00BCD4, #4CAF50);
+        background-size: 200% auto;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textGradient 5s ease infinite;
+    }
+}
+
+/* 横屏模式优化 */
+@media (max-width: 768px) and (orientation: landscape) {
+    .menu-item-left {
+        flex-direction: row !important;
+        justify-content: center;
+        gap: 25px;
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    
+    .menu-item-image {
+        width: 120px;
+        height: 150px;
+        flex-shrink: 0;
+    }
+    
+    .radar-chart {
+        width: 120px;
+        height: 120px;
+        margin-top: 0;
+        flex-shrink: 0;
+        overflow: hidden;
+    }
+    
+    .menu-item-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+    }
+}
