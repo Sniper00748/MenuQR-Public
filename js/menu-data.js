@@ -25,7 +25,7 @@ const menuData = {
             categoryId: 1,
             name: "今夜不回家",
             price: 38,
-            image: "https://s21.ax1x.com/2025/05/20/pExYJbt.webp",
+            image: "https://pic1.imgdb.cn/item/68994deb58cb8da5c8180745.webp",
             description: "浓郁的酒香与甜美的果香完美融合，让人沉醉其中，不愿离去",
             ingredients: "龙舌兰、朗姆、金酒、生命之水、蓝橙利口酒、苦精",
             stats: {alcohol: 5, sweetness: 2, acidity: 1, bitterness: 2, complexity: 4, body: 2}
@@ -55,7 +55,7 @@ const menuData = {
             categoryId: 1,
             name: "僵尸",
             price: 48,
-            image: "https://s21.ax1x.com/2025/05/20/pExYNUf.webp",
+            image: "https://pic1.imgdb.cn/item/68994deb58cb8da5c8180748.webp",
             description: "多种朗姆酒的完美融合，加入热带水果汁和香料，口感复杂而强烈，如同被唤醒的僵尸般令人震撼",
             ingredients: "多种朗姆酒、热带水果汁、香料",
             stats: {alcohol: 5, sweetness: 4, acidity: 3, bitterness: 2, complexity: 5, body: 4}
@@ -65,7 +65,7 @@ const menuData = {
             categoryId: 1,
             name: "特别的人",
             price: 38,
-            image: "https://s21.ax1x.com/2025/05/20/pExYw8g.webp",
+            image: "https://pic1.imgdb.cn/item/68994deb58cb8da5c8180746.webp",
             description: "为特别的人调制的特别鸡尾酒，清新果香与温和酒精的完美平衡，如同那个特别的人给你的感觉",
             ingredients: "金酒、朗姆、红石榴糖浆、养乐多",
             stats: {alcohol: 3, sweetness: 4, acidity: 3, bitterness: 1, complexity: 2, body: 4}
@@ -105,7 +105,7 @@ const menuData = {
             categoryId: 1,
             name: "椰林飘香",
             price: 38,
-            image: "https://s21.ax1x.com/2025/05/20/pExU4xg.webp",
+            image: "https://pic1.imgdb.cn/item/68994dcf58cb8da5c8180737.webp",
             description: "热带风情的经典鸡尾酒，朗姆酒的醇厚与椰子的香甜，菠萝汁增添一丝酸甜",
             ingredients: "白朗姆、椰子利口酒、菠萝汁、椰奶",
             stats: {alcohol: 2, sweetness: 5, acidity: 2, bitterness: 1, complexity: 2, body: 5}
@@ -165,7 +165,7 @@ const menuData = {
             categoryId: 1,
             name: "蒂芙尼蓝",
             price: 28,
-            image: "https://s21.ax1x.com/2025/05/20/pExYtVP.webp",
+            image: "https://pic1.imgdb.cn/item/68994deb58cb8da5c8180747.webp",
             description: "如同蒂芙尼蓝宝石般优雅的鸡尾酒，伏特加的清爽与蓝柑橘的甜美，柠檬汁增添一丝酸爽",
             ingredients: "椰子利口酒、蓝柑橘利口酒、君度、牛奶",
             stats: {alcohol: 2, sweetness: 4, acidity: 1, bitterness: 1, complexity: 2, body: 5}
