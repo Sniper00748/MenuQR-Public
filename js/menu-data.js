@@ -115,7 +115,7 @@ const menuData = {
             categoryId: 1,
             name: "帕洛玛",
             price: 28,
-            image: "https://s21.ax1x.com/2025/08/10/pVdZjGd.webp",
+            image: "https://pic1.imgdb.cn/item/6899521258cb8da5c8181116.webp",
             description: "墨西哥经典鸡尾酒，龙舌兰的烈性与西柚的清新，苏打水增添气泡感",
             ingredients: "龙舌兰、西柚汁、青柠汁、苏打水",
             stats: {alcohol: 2, sweetness: 2, acidity: 3, bitterness: 2, complexity: 2, body: 2}
@@ -155,7 +155,7 @@ const menuData = {
             categoryId: 1,
             name: "高潮",
             price: 28,
-            image: "https://s21.ax1x.com/2025/08/10/pVdZ08s.webp",
+            image: "https://pic1.imgdb.cn/item/6899521258cb8da5c8181115.webp",
             description: "层次丰富的口感，从清爽到醇厚，如同情绪的起伏，最终达到高潮",
             ingredients: "百利甜、君度、橙汁",
             stats: {alcohol: 2, sweetness: 4, acidity: 2, bitterness: 1, complexity: 2, body: 4}
